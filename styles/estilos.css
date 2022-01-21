@@ -1,0 +1,66 @@
+p{
+    color: blue;
+}
+
+h3{
+    color: crimson;
+}
+
+#parrafo3{
+    color: darkgoldenrod;
+}
+
+main{
+    background-color: dodgerblue;
+}
+.FondoRojo{
+    background-color: darkred;
+}
+
+.TextoRosa{
+    color: rgb(199, 17, 108);
+}
+
+.TextoGrandeNegrita{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: narrower;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ImagenPequeña{
+    height: 200px;
+}
+
+.ParrafoEstrecho{
+    width: 100px;
+}
+
+.Contenedorcito{
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid red;
+
+}
+
+.ContenedorDivs{
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 1px solid purple;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.divTest{
+    border: 1px solid red;
+}
+
+.ContenedorDivsFlex{
+    border: 1px solid green;
+    display: flex;
+    height: 500px;
+    justify-content: space-between ;
+    align-items: flex-end;
+
+}
